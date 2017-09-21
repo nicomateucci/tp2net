@@ -54,5 +54,20 @@ namespace UI.Desktop
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void toolStripContainer3_ContentPanel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

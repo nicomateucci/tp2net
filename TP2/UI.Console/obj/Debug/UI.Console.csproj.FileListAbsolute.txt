@@ -34,3 +34,15 @@ C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrol
 C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\UI.Console\bin\Debug\Bussiness.Logic.pdb
 C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\UI.Console\bin\Debug\Data.Database.pdb
 C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\UI.Console\obj\Debug\UI.Console.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\bin\Debug\UI.Console.exe.config
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\bin\Debug\UI.Console.exe
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\bin\Debug\UI.Console.pdb
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\bin\Debug\Bussiness.Entities.dll
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\bin\Debug\Bussiness.Logic.dll
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\bin\Debug\Data.Database.dll
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\bin\Debug\Bussiness.Entities.pdb
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\bin\Debug\Bussiness.Logic.pdb
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\bin\Debug\Data.Database.pdb
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\obj\Debug\UI.Console.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\obj\Debug\UI.Console.exe
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Console\obj\Debug\UI.Console.pdb

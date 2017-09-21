@@ -50,3 +50,23 @@ C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrol
 C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\UI.Desktop\obj\Debug\UI.Desktop.Login.resources
 C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\UI.Desktop\obj\Debug\UI.Desktop.Inicio.resources
 C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\UI.Desktop\obj\Debug\UI.Desktop.Usuarios.resources
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\bin\Debug\UI.Desktop.exe
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\bin\Debug\UI.Desktop.pdb
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\bin\Debug\Bussiness.Entities.dll
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\bin\Debug\Bussiness.Logic.dll
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\bin\Debug\Data.Database.dll
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\bin\Debug\Bussiness.Entities.pdb
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\bin\Debug\Bussiness.Logic.pdb
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\bin\Debug\Data.Database.pdb
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\obj\Debug\UI.Desktop.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\obj\Debug\UI.Desktop.ApplicationForm.resources
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\obj\Debug\UI.Desktop.Inicio.resources
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\obj\Debug\UI.Desktop.Login.resources
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\obj\Debug\UI.Desktop.UsuarioDesktop.resources
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\obj\Debug\UI.Desktop.Properties.Resources.resources
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\obj\Debug\UI.Desktop.Usuarios.resources
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.GenerateResource.Cache
+C:\Users\Nicolas\Desktop\tp2net\TP2\UI.Desktop\obj\Debug\UI.Desktop.UIAlumno.resources

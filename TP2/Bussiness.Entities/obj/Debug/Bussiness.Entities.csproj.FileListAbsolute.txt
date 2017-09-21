@@ -1,0 +1,15 @@
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L03\TP2\Bussiness.Entities\bin\Debug\Bussiness.Entities.dll
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L03\TP2\Bussiness.Entities\bin\Debug\Bussiness.Entities.pdb
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L03\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.dll
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L03\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.pdb
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L03\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L04\TP2\Bussiness.Entities\bin\Debug\Bussiness.Entities.dll
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L04\TP2\Bussiness.Entities\bin\Debug\Bussiness.Entities.pdb
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L04\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L04\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.dll
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L04\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.pdb
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\Bussiness.Entities\bin\Debug\Bussiness.Entities.dll
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\Bussiness.Entities\bin\Debug\Bussiness.Entities.pdb
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.dll
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.pdb
+C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.csprojResolveAssemblyReference.cache

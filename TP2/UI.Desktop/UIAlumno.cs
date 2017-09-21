@@ -21,5 +21,10 @@ namespace UI.Desktop
         {
 
         }
+
+        private void tstripBase_ContentPanel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

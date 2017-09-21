@@ -228,7 +228,7 @@
         private System.Windows.Forms.ToolStripMenuItem detallesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         protected System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        protected internal System.Windows.Forms.MenuStrip menuStripBase;
         protected internal System.Windows.Forms.ToolStripMenuItem btnMenuStrip1;
+        public System.Windows.Forms.MenuStrip menuStripBase;
     }
 }

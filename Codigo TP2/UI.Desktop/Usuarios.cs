@@ -30,6 +30,8 @@ namespace UI.Desktop
 
         private void Usuarios_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'tp2_netDataSet.usuarios' Puede moverla o quitarla según sea necesario.
+            this.usuariosTableAdapter.Fill(this.tp2_netDataSet.usuarios);
             this.Listar();
         }
 
@@ -41,6 +43,18 @@ namespace UI.Desktop
         private void btnActualizar_Click(object sender, EventArgs e)
         {
             this.Listar();
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            UsuarioDesktop usuarioDesk = new UsuarioDesktop();
+            usuarioDesk.ShowDialog();
+
+        }
+
+        private void tsbtnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

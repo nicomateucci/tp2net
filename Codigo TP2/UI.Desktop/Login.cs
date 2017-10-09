@@ -26,14 +26,23 @@ namespace UI.Desktop
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            Bussiness.Logic.UsuarioLogic userLogic = new Bussiness.Logic.UsuarioLogic();
-            int id = userLogic.Login(lblUsuario.Text, txtPwd.Text) ;
-            if (id != 0)
+
+            if (lblUsuario.Text != null || txtPwd.Text == null)
             {
-                //Ya esta hecho el mapeo de tabla a objeto, por lo que ya tengo el usuario en "user".
-                Usuario user = userLogic.GetOne(id);
+                Bussiness.Logic.UsuarioLogic userLogic = new Bussiness.Logic.UsuarioLogic();
+                int id = userLogic.Login(txtUsuario.Text, txtPwd.Text);
+                if (id != 0)
+                {
+                    //Ya esta hecho el mapeo de tabla a objeto, por lo que ya tengo el usuario en "user".
+                    Usuario user = userLogic.GetOne(id);
+                    lblUsuario.Text = "Inicio correcto";
+                }
+                else { lblError.Visible = true; };
             }
-            else { lblError.Visible = true; }; 
+            else
+            {
+                lblUsuario.Text = "Usuario o contraseña vacios";
+            }
 
         }
 
@@ -63,6 +72,11 @@ namespace UI.Desktop
             {
                 this.btnIngresar_Click(sender, e);
             }
+        }
+
+        private void lblUsuario_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.btnIngresar = new System.Windows.Forms.Button();
-            this.txtUsuario = new System.Windows.Forms.Label();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.lblPwd = new System.Windows.Forms.Label();
-            this.lblUsuario = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtPwd = new System.Windows.Forms.TextBox();
             this.lblBienvenido = new System.Windows.Forms.Label();
             this.lblError = new System.Windows.Forms.Label();
@@ -48,15 +48,15 @@
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             this.btnIngresar.DragEnter += new System.Windows.Forms.DragEventHandler(this.btnIngresar_DragEnter);
             // 
-            // txtUsuario
+            // lblUsuario
             // 
-            this.txtUsuario.AutoSize = true;
-            this.txtUsuario.Location = new System.Drawing.Point(99, 283);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(99, 13);
-            this.txtUsuario.TabIndex = 1;
-            this.txtUsuario.Text = "Nombre de usuario:";
-            this.txtUsuario.Click += new System.EventHandler(this.Luser_Click);
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Location = new System.Drawing.Point(99, 283);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(99, 13);
+            this.lblUsuario.TabIndex = 1;
+            this.lblUsuario.Text = "Nombre de usuario:";
+            this.lblUsuario.Click += new System.EventHandler(this.Luser_Click);
             // 
             // lblPwd
             // 
@@ -68,14 +68,15 @@
             this.lblPwd.Text = "Contraseña";
             this.lblPwd.Click += new System.EventHandler(this.label2_Click);
             // 
-            // lblUsuario
+            // txtUsuario
             // 
-            this.lblUsuario.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblUsuario.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.lblUsuario.Location = new System.Drawing.Point(102, 311);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(172, 20);
-            this.lblUsuario.TabIndex = 3;
+            this.txtUsuario.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtUsuario.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtUsuario.Location = new System.Drawing.Point(102, 311);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(172, 20);
+            this.txtUsuario.TabIndex = 3;
+            this.txtUsuario.TextChanged += new System.EventHandler(this.lblUsuario_TextChanged);
             // 
             // txtPwd
             // 
@@ -114,22 +115,22 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1022, 741);
+            this.ClientSize = new System.Drawing.Size(1022, 733);
             this.Controls.Add(this.lblError);
             this.Controls.Add(this.lblBienvenido);
             this.Controls.Add(this.txtPwd);
-            this.Controls.Add(this.lblUsuario);
-            this.Controls.Add(this.lblPwd);
             this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.lblPwd);
+            this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.btnIngresar);
             this.Name = "Login";
             this.Text = "Login";
             this.Enter += new System.EventHandler(this.Login_Enter);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Login_KeyDown);
             this.Controls.SetChildIndex(this.btnIngresar, 0);
-            this.Controls.SetChildIndex(this.txtUsuario, 0);
-            this.Controls.SetChildIndex(this.lblPwd, 0);
             this.Controls.SetChildIndex(this.lblUsuario, 0);
+            this.Controls.SetChildIndex(this.lblPwd, 0);
+            this.Controls.SetChildIndex(this.txtUsuario, 0);
             this.Controls.SetChildIndex(this.txtPwd, 0);
             this.Controls.SetChildIndex(this.lblBienvenido, 0);
             this.Controls.SetChildIndex(this.lblError, 0);
@@ -141,9 +142,9 @@
         #endregion
 
         private System.Windows.Forms.Button btnIngresar;
-        private System.Windows.Forms.Label txtUsuario;
+        private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblPwd;
-        private System.Windows.Forms.TextBox lblUsuario;
+        private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtPwd;
         private System.Windows.Forms.Label lblBienvenido;
         private System.Windows.Forms.Label lblError;

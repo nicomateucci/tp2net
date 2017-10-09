@@ -18,3 +18,8 @@ C:\Users\Nicolas\Desktop\tp2net\TP2\Bussiness.Entities\bin\Debug\Bussiness.Entit
 C:\Users\Nicolas\Desktop\tp2net\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.csprojResolveAssemblyReference.cache
 C:\Users\Nicolas\Desktop\tp2net\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.dll
 C:\Users\Nicolas\Desktop\tp2net\TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.pdb
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Entities\bin\Debug\Bussiness.Entities.dll
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Entities\bin\Debug\Bussiness.Entities.pdb
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.dll
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Entities\obj\Debug\Bussiness.Entities.pdb

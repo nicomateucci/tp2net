@@ -47,11 +47,11 @@ namespace UI.Desktop
             }
         }
 
+
         public Usuario UsuarioActual
         {
             set;get;
         }
-
         public override void MapearDeDatos()
         {
             this.txtId.Text = this.UsuarioActual.ID.ToString();

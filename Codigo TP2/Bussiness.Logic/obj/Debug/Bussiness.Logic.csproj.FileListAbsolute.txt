@@ -34,3 +34,12 @@ C:\Users\Nicolas\Desktop\tp2net\TP2\Bussiness.Logic\bin\Debug\Data.Database.pdb
 C:\Users\Nicolas\Desktop\tp2net\TP2\Bussiness.Logic\obj\Debug\Bussiness.Logic.csprojResolveAssemblyReference.cache
 C:\Users\Nicolas\Desktop\tp2net\TP2\Bussiness.Logic\obj\Debug\Bussiness.Logic.dll
 C:\Users\Nicolas\Desktop\tp2net\TP2\Bussiness.Logic\obj\Debug\Bussiness.Logic.pdb
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Logic\bin\Debug\Bussiness.Logic.dll
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Logic\bin\Debug\Bussiness.Logic.pdb
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Logic\bin\Debug\Bussiness.Entities.dll
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Logic\bin\Debug\Data.Database.dll
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Logic\bin\Debug\Bussiness.Entities.pdb
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Logic\bin\Debug\Data.Database.pdb
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Logic\obj\Debug\Bussiness.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Logic\obj\Debug\Bussiness.Logic.dll
+C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\Bussiness.Logic\obj\Debug\Bussiness.Logic.pdb

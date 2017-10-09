@@ -41,7 +41,7 @@ namespace Data.Database
         public Bussiness.Entities.Usuario GetOne(int id)
         {
             this.OpenConnection();
-            SqlCommand coman = new SqlCommand("select * from usuarios where id_usuario='" + id + "'");
+            SqlCommand coman = new SqlCommand("select * from usuarios where id_usuario='" + id + "'", sqlConn);
             SqlDataReader dtRead = coman.ExecuteReader();
             if (dtRead.HasRows)
             {

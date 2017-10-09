@@ -19,7 +19,7 @@ namespace UI.Desktop
             UIAlumno uialum = new UIAlumno();
             /*Ultimo problema: No podia modificar controles de UIAlumno, porque estaban definidos en ApplicationForm (Su padre),
              */
-            Application.Run(new UIAlumno());
+            Application.Run(new Login());
         }
     }
 }

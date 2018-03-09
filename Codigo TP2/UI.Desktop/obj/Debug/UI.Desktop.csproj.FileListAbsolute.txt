@@ -93,3 +93,6 @@ C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.P
 C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.Usuarios.resources
 C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.GenerateResource.Cache
 C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
+C:\Users\Nico\Desktop\TP2 Net\tp2net\Codigo TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
+C:\Users\Nico\Desktop\TP2 Net\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
+C:\Users\Nico\Desktop\TP2 Net\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb

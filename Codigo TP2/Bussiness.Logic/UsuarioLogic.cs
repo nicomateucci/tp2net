@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Bussiness.Entities;
 using Data.Database;
-//Comentario agregado para ver como aparece en GitHub
 using System.Data;
 using System.Data.SqlClient;
 

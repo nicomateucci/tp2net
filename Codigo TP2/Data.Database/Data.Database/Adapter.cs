@@ -13,13 +13,13 @@ namespace Data.Database
         //private SqlConnection sqlConnection = new SqlConnection("ConnectionString;");
         //Clave por defecto a utlizar para la cadena de conexion
         //const string consKeyDefaultCnnString = "ConnStringLocal";
-        const string consKeyDefaultCnnString = "Server= localhost; Database = tp2_net; Trusted_Connection = True";
+        //const string consKeyDefaultCnnString = "Server= localhost; Database = tp2_net; Trusted_Connection = True";
         public SqlConnection sqlConn
         { set; get; }
         protected void OpenConnection()
         {
             //string miConString = ConfigurationManager.ConnectionStrings[consKeyDefaultCnnString].ConnectionString;
-            string miConString = "Server=localhost; Database = tp2_net; Trusted_Connection = True";
+            string miConString = "Server=localhost; Database = tp2net; Trusted_Connection = True";
             sqlConn = new SqlConnection(miConString);
             sqlConn.Open();
         }

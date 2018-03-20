@@ -28,7 +28,7 @@ namespace Data.Database
                 usr.Habilitado = (bool)drUsuarios["habilitado"];
                 usr.Nombre = (string)drUsuarios["nombre"];
                 usr.Apellido = (string)drUsuarios["apellido"];
-                usr.Email = (string)drUsuarios["email"];
+                //usr.Email = (string)drUsuarios["email"];
 
                 usuarios.Add(usr);
             }
@@ -41,6 +41,7 @@ namespace Data.Database
         public Bussiness.Entities.Usuario GetOne(int id)
         {
             this.OpenConnection();
+            System.Console.WriteLine("El id ingresado es: " + id);
             SqlCommand coman = new SqlCommand("select * from usuarios where id_usuario='" + id + "'", sqlConn);
             SqlDataReader dtRead = coman.ExecuteReader();
             if (dtRead.HasRows)
@@ -58,7 +59,7 @@ namespace Data.Database
             elUser.ID = int.Parse(dtTab.Rows[0][0].ToString());
             elUser.Nombre = dtTab.Rows[0]["nombre"].ToString();
             elUser.Apellido = dtTab.Rows[0]["apellido"].ToString();
-            elUser.Email = dtTab.Rows[0]["email"].ToString();
+            //elUser.Email = dtTab.Rows[0]["email"].ToString();
             elUser.NombreUsuario = dtTab.Rows[0]["nombre_usuario"].ToString();
             elUser.Habilitado = bool.Parse(dtTab.Rows[0]["habilitado"].ToString());
             return elUser;

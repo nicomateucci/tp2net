@@ -7,21 +7,21 @@ using System.Data.SqlClient;
 
 namespace Data.Database
 {
-    public class CursoAdapter: Adapter
+    public class PlanAdapter: Adapter
     {
-        public List<Curso> GetAll()
+        public List<Plan> GetAll()
         {
-            return new List<Curso>();
+            return new List<Plan>();
         }
-        public Curso GetOne(int Id)
+        public Plan GetOne(int Id)
         {
-            return new Curso;
+            return new Plan();
         }
         public void Delete(int Id)
         {
 
         }
-        public void Save(Curso unCurso)
+        public void Save(Plan unPlan)
         {
             
         }

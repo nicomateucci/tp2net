@@ -11,3 +11,9 @@ C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrol
 C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\Util\obj\Debug\Util.dll
 C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\Util\obj\Debug\Util.pdb
 C:\Users\Nicolas\Desktop\Nico (21-12-2016)\UTN\3° Año\6_Tecnologia de desarrollo de software IDE\TP2\TP2L05\TP2\Util\obj\Debug\Util.csprojResolveAssemblyReference.cache
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\Util\bin\Debug\Util.dll
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\Util\bin\Debug\Util.pdb
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\Util\obj\Debug\Util.csprojResolveAssemblyReference.cache
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\Util\obj\Debug\Util.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\Util\obj\Debug\Util.dll
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\Util\obj\Debug\Util.pdb

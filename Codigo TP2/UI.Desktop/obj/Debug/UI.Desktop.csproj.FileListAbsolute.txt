@@ -96,3 +96,25 @@ C:\Users\Nicolas\Desktop\Git\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.e
 C:\Users\Nico\Desktop\TP2 Net\tp2net\Codigo TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
 C:\Users\Nico\Desktop\TP2 Net\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
 C:\Users\Nico\Desktop\TP2 Net\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\bin\Debug\UI.Desktop.exe
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\bin\Debug\UI.Desktop.pdb
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\bin\Debug\Bussiness.Entities.dll
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\bin\Debug\Bussiness.Logic.dll
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\bin\Debug\Data.Database.dll
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\bin\Debug\Bussiness.Entities.pdb
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\bin\Debug\Bussiness.Logic.pdb
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\bin\Debug\Data.Database.pdb
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.csprojResolveAssemblyReference.cache
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.ApplicationForm.resources
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.Inicio.resources
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.Login.resources
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.UIAlumno.resources
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.UsuarioDesktop.resources
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.Properties.Resources.resources
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.Usuarios.resources
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.GenerateResource.cache
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.CopyComplete
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
+C:\Users\Nico\Desktop\tp2net\Codigo TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb

@@ -70,7 +70,10 @@ namespace UI.Console
                 System.Console.Clear();
                 System.Console.WriteLine("Ingrese el ID de usuario ");
                 int Id = int.Parse(System.Console.ReadLine());
-                //this.MostrarDatos(UsuarioNegocio.GetAll());
+                System.Console.Write("Ingreso el id de usuario: " + Id);
+                System.Console.ReadKey();
+                Usuario unUsuario = UsuarioNegocio.GetOne(Id);
+                this.MostrarDatos(unUsuario);
             }
             catch (FormatException fe)
             {
@@ -181,13 +184,14 @@ namespace UI.Console
         }
         public void MostrarDatos(Usuario user)
         {
-            System.Console.WriteLine("Usuario: ", user.ID.ToString());
-            System.Console.WriteLine("\t\tNombre: ", user.Nombre);
-            System.Console.WriteLine("\t\tApellido: ", user.Apellido);
-            System.Console.WriteLine("\t\tNombre de usuario: ", user.NombreUsuario);
-            System.Console.WriteLine("\t\tClave: ", user.Clave);
-            System.Console.WriteLine("\t\tEmail: ", user.Email);
-            System.Console.WriteLine("\t\tHabilitado: ", user.Habilitado.ToString());
+            System.Console.WriteLine("Usuario: " +  user.ID);
+            System.Console.WriteLine("-------------------");
+            System.Console.WriteLine("Nombre: " + user.Nombre);
+            System.Console.WriteLine("Apellido: " + user.Apellido);
+            System.Console.WriteLine("Nombre de usuario: " + user.NombreUsuario);
+            System.Console.WriteLine("Clave: " + user.Clave);
+            System.Console.WriteLine("Email: " + user.Email);
+            System.Console.WriteLine("Habilitado: " + user.Habilitado.ToString());
             System.Console.WriteLine();
         }
     }

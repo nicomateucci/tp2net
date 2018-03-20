@@ -7,21 +7,21 @@ using System.Data.SqlClient;
 
 namespace Data.Database
 {
-    public class ComisionAdapter: Adapter
+    public class CursoAdapter: Adapter
     {
-        public List<Comision> GetAll()
+        public List<Curso> GetAll()
         {
-            return new List<Comision>();
+            return new List<Curso>();
         }
-        public Comision GetOne(int Id)
+        public Curso GetOne(int Id)
         {
-            return new Comision;
+            return new Curso();
         }
         public void Delete(int Id)
         {
 
         }
-        public void Save(Comision unaComision)
+        public void Save(Curso unCurso)
         {
             
         }

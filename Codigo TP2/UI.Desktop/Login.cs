@@ -35,7 +35,9 @@ namespace UI.Desktop
                 {
                     //Ya esta hecho el mapeo de tabla a objeto, por lo que ya tengo el usuario en "user".
                     Usuario user = userLogic.GetOne(id);
-                    lblUsuario.Text = "Inicio correcto";
+                    Inicio ini = new Inicio(user);
+                    ini.ShowDialog();
+                    this.Close();
                 }
                 else { lblError.Visible = true; };
             }

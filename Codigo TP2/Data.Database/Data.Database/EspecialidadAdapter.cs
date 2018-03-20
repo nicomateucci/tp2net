@@ -7,21 +7,21 @@ using System.Data.SqlClient;
 
 namespace Data.Database
 {
-    public class MateriaAdapter: Adapter
+    public class EspecialidadAdapter: Adapter
     {
-        public List<Materia> GetAll()
+        public List<Especialidad> GetAll()
         {
-            return new List<Materia>();
+            return new List<Especialidad>();
         }
-        public Materia GetOne(int Id)
+        public Especialidad GetOne(int Id)
         {
-            return new Materia;
+            return new Especialidad();
         }
         public void Delete(int Id)
         {
 
         }
-        public void Save(Materia unaMateria)
+        public void Save(Especialidad unaEspecialidad)
         {
             
         }

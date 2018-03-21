@@ -76,6 +76,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>tp2_netDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="UIAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIAdmin.Designer.cs">
+      <DependentUpon>UIAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="UIAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIAdmin.resx">
+      <DependentUpon>UIAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UIAlumno.resx">
       <DependentUpon>UIAlumno.cs</DependentUpon>

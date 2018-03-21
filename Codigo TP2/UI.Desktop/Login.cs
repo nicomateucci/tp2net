@@ -33,10 +33,24 @@ namespace UI.Desktop
                 int id = userLogic.Login(txtUsuario.Text, txtPwd.Text);
                 if (id != 0)
                 {
-                    //Ya esta hecho el mapeo de tabla a objeto, por lo que ya tengo el usuario en "user".
                     Usuario user = userLogic.GetOne(id);
-                    Inicio ini = new Inicio(user);
-                    ini.ShowDialog();
+                    int tipoUsuario = user.MiTipo();
+                    //En lugar de hacer 3 if, podria definir los botonoes segun el tipo de usuario, pero por ahora lo dejo asi.
+                    if (tipoUsuario == 0)
+                    {
+                        UIAdmin frmAdmin = new UIAdmin(user);
+                        frmAdmin.Show();
+                    }
+                    else if ( tipoUsuario == 1)
+                    {
+                        UIDocente frmDocente = new UIDocente(user);
+                        frmDocente.Show();
+                    }
+                    else
+                    {
+                        UIAlumno frmAlumno = new UIAlumno(user);
+                        frmAlumno.Show();
+                    }
                     this.Close();
                 }
                 else { lblError.Visible = true; };

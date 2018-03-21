@@ -48,7 +48,7 @@
             this.lblBienbenidaUsuario.AutoSize = true;
             this.lblBienbenidaUsuario.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblBienbenidaUsuario.Font = new System.Drawing.Font("Arial", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBienbenidaUsuario.Location = new System.Drawing.Point(302, 112);
+            this.lblBienbenidaUsuario.Location = new System.Drawing.Point(300, 9);
             this.lblBienbenidaUsuario.Name = "lblBienbenidaUsuario";
             this.lblBienbenidaUsuario.Size = new System.Drawing.Size(73, 24);
             this.lblBienbenidaUsuario.TabIndex = 3;
@@ -60,13 +60,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1022, 696);
-            this.Controls.Add(this.lblBienbenidaUsuario);
             this.Controls.Add(this.lblBienvenida);
             this.Name = "Inicio";
             this.Text = "Inicio";
             this.Load += new System.EventHandler(this.Inicio_Load);
             this.Controls.SetChildIndex(this.lblBienvenida, 0);
-            this.Controls.SetChildIndex(this.lblBienbenidaUsuario, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 

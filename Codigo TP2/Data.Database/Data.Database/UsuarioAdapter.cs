@@ -9,8 +9,6 @@ namespace Data.Database
 {
     public class UsuarioAdapter: Adapter
     {
-        
-
         public static List<Usuario> Usuarios;
 
         public List<Usuario> GetAll()
@@ -53,33 +51,6 @@ namespace Data.Database
             }
             else return null;
         }
-        public Bussiness.Entities.Usuario MapeoRelacionObjeto(DataTable dtTab)
-        {
-            Usuario elUser = new Usuario();
-            elUser.ID = int.Parse(dtTab.Rows[0][0].ToString());
-            elUser.Nombre = dtTab.Rows[0]["nombre"].ToString();
-            elUser.Apellido = dtTab.Rows[0]["apellido"].ToString();
-            //elUser.Email = dtTab.Rows[0]["email"].ToString();
-            elUser.NombreUsuario = dtTab.Rows[0]["nombre_usuario"].ToString();
-            elUser.Habilitado = bool.Parse(dtTab.Rows[0]["habilitado"].ToString());
-            return elUser;
-        }
-        public int Login(String user , String pass)
-        {
-            this.OpenConnection();
-            SqlCommand command = new SqlCommand("select * from usuarios where nombre_usuario ='" + user +  "' and clave =@pass", sqlConn);
-            command.Parameters.Add("@pass", SqlDbType.VarChar).Value = pass;
-            command.ExecuteNonQuery();
-            SqlDataReader dtReader = command.ExecuteReader();
-            if (dtReader.HasRows)
-            {
-                DataTable dtTable = new DataTable();
-                dtTable.Load(dtReader);
-                return int.Parse(dtTable.Rows[0][0].ToString());
-            }
-            else{ return 0;}  
-            
-        }
 
         public void Delete(int ID)
         {
@@ -111,6 +82,41 @@ namespace Data.Database
                 Usuarios[Usuarios.FindIndex(delegate (Usuario u) { return u.ID == usuario.ID; })] = usuario;
             }
             usuario.State = BussinessEntity.States.Unmodified;            
+        }
+
+        public int Login(String user, String pass)
+        {
+            this.OpenConnection();
+            SqlCommand command = new SqlCommand("select * from usuarios where nombre_usuario ='" + user + "' and clave =@pass", sqlConn);
+            command.Parameters.Add("@pass", SqlDbType.VarChar).Value = pass;
+            command.ExecuteNonQuery();
+            SqlDataReader dtReader = command.ExecuteReader();
+            if (dtReader.HasRows)
+            {
+                DataTable dtTable = new DataTable();
+                dtTable.Load(dtReader);
+                return int.Parse(dtTable.Rows[0][0].ToString());
+            }
+            else { return 0; }
+
+        }
+
+        public Bussiness.Entities.Usuario MapeoRelacionObjeto(DataTable dtTab)
+        {
+            Usuario elUser = new Usuario();
+            elUser.ID = int.Parse(dtTab.Rows[0][0].ToString());
+            elUser.Nombre = dtTab.Rows[0]["nombre"].ToString();
+            elUser.Apellido = dtTab.Rows[0]["apellido"].ToString();
+            //elUser.Email = dtTab.Rows[0]["email"].ToString();
+            elUser.NombreUsuario = dtTab.Rows[0]["nombre_usuario"].ToString();
+            elUser.Habilitado = bool.Parse(dtTab.Rows[0]["habilitado"].ToString());
+            return elUser;
+        }
+
+        public int MiTipo()
+        {
+            string cons = "select tipo_persona from usuarios inner join personas on usuarios.id_persona = persona.id_persona where id_usuario = '" +  + "'"
+            SqlCommand com = new SqlCommand()
         }
     }
 }

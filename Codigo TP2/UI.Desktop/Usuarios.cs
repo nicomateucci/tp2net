@@ -23,6 +23,7 @@ namespace UI.Desktop
             UsuarioLogic userLogic = new UsuarioLogic();
             this.dataGridViewUsuarios.DataSource = userLogic.GetAll();
         }
+
         private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
         {
 

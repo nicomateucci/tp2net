@@ -16,10 +16,11 @@ namespace UI.Desktop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Login uialum = new Login();
+            Login frmLogin = new Login();
+            frmLogin.Show();
             /*Ultimo problema: No podia modificar controles de UIAlumno, porque estaban definidos en ApplicationForm (Su padre),
              */
-            Application.Run(new Login());
+            Application.Run();
         }
     }
 }
